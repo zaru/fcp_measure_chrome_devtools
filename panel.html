@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FCP Monitor</title>
+  <style type="text/css">
+    body {
+      padding: 10px 20px;
+    }
+    h1 {
+      font-size: 16px;
+    }
+    ul {
+      padding: 5px 20px;
+      font-size: 14px;
+    }
+    @media (prefers-color-scheme: light) {
+      body {
+        background-color: #ffffff;
+        color: #363636;
+      }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #363636;
+        color: #ffffff;
+      }
+    }
+  </style>
+</head>
+<body>
+<h1>first contentful paint measure</h1>
+<p>Click the reload button to start a new recording.</p>
+<button id="reload">Reload</button>
+<ul id="message"></ul>
+<script src="./panel.js"></script>
+</body>
+</html>

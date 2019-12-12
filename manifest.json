@@ -1,0 +1,12 @@
+{
+  "name": "FCP measure",
+  "manifest_version": 2,
+  "version": "1",
+  "devtools_page": "devtools.html",
+  "content_scripts": [
+    {
+      "matches": [ "http://*/*", "https://*/*" ],
+      "js": [ "content.js" ]
+    }
+  ]
+}
